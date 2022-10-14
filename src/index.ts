@@ -1,9 +1,5 @@
-import { add } from "./add";
+import React from "react";
+import ReactDom from "react-dom"
+import Hello from "./Hello";
 
-function main() {
-    const sum = add!(1, 2, 3);
-    defer console.log("sum", sum);
-
-    console.log("bla");
-}
-main();
+ReactDom.render(React.createElement(Hello), document.getElementById("root"));
