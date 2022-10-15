@@ -2566,10 +2566,10 @@ typescript-formatter@^7.2.2:
     commandpost "^1.0.0"
     editorconfig "^0.15.0"
 
-"typescript@npm:@laurci/typescript@4.9.0-p.3":
-  version "4.9.0-p.3"
-  resolved "https://npm.pkg.github.com/download/@laurci/typescript/4.9.0-p.3/f9a8dbeef05572c4b8757762bb7f17f83c525539#f9a8dbeef05572c4b8757762bb7f17f83c525539"
-  integrity sha512-8d1GjJPkz8pywmhNg6vVlQaMpCbKeqsWbaic9MT7El4FfLVwP2LBlKgMetkKsjS1ICGq5uQb3P+GaHPMsnc3Cw==
+"typescript@npm:@laurci/typescript@4.9.0-p.4":
+  version "4.9.0-p.4"
+  resolved "https://npm.pkg.github.com/download/@laurci/typescript/4.9.0-p.4/c920784f5ba275a3ad8860e1bcf8b4cee468fa13#c920784f5ba275a3ad8860e1bcf8b4cee468fa13"
+  integrity sha512-E6KVkmUI1AY144XQdWlVc04JCG6YMRAuCq86HB5wGkGGyQP+ln4Hxy0M1B+19fQH/Lhx1fU/jUmp2REnAbZppg==
   dependencies:
     pirates "^4.0.5"
 

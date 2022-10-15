@@ -1,8 +1,14 @@
 import React from "react";
 import { add } from "./add";
+import { debug } from "./debug";
 
-export default function Hello() {
-    const sum = add!(1, 3, 6);
+function Hello() {
+    const sum = add!(1, 2, 3);
+
+    debug!("before render", sum);
+    defer {
+        debug!("after render", sum);
+    }
 
     return (
         <div>
@@ -11,3 +17,4 @@ export default function Hello() {
         </div>
     );
 }
+export default Hello;
